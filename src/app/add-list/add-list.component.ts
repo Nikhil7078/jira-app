@@ -16,7 +16,6 @@ export class AddListComponent implements OnInit {
   ngOnInit(): void {
     this.list_form = this.formBuilder.group({
       header: [null],
-      date: [null]
     })
   }
     handleAdd() : void{
