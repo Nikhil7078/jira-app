@@ -1,0 +1,11 @@
+<div style=" display: block;">
+    <form class="form" [formGroup]="list_form">
+        <mat-label>List Name</mat-label>
+        <input matInput formControlName="header" required>
+    
+        <mat-label></mat-label>
+        <input matInput formControlName="date" required>
+       
+    </form>
+    <button mat-button type="submit" (click)="handleAdd()">Add</button>
+</div>

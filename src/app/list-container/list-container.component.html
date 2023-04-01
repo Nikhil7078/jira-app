@@ -1,0 +1,9 @@
+<div class="main-container">
+    <div class="list-container ">
+        <div *ngFor='let list of lists'>
+            {{list.id}}
+            <app-list [list] = 'list'></app-list>
+        </div>
+    </div>
+    <button mat-button color="primary" class="add-list-btn" (click) = onAddlist()>Add List</button>
+</div>

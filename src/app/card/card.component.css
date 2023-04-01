@@ -1,0 +1,17 @@
+.container{
+    width: 120px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+    color: black;
+    margin: 6px;
+    padding: 4px;
+    border: 2px solid black;
+}
+
+.container-box{
+  
+}

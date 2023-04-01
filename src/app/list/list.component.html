@@ -1,0 +1,13 @@
+<div class="card-container">
+    <div style="display:flex">
+        <span><h3>{{list.name}}</h3></span>
+        <button mat-button (click)=onDelete()><mat-icon>delete</mat-icon></button>
+    </div>
+    <div *ngFor='let card of list.cards'>
+        <!-- <div>{{card.desc}}</div> -->
+        <app-card [card_data]="card"  [list_id] = "list.id"></app-card>
+    </div>
+</div>
+<button mat-button (click)='onAdd()' class="btn-add">Add</button>
+<!-- 
+<h1>{{card_data.header}}</h1> -->

@@ -1,0 +1,22 @@
+.card-container {
+  width: 140px;
+  /* height: 550px; */
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 18px;
+  padding: 8px;
+  background-color: rgb(207, 207, 207);
+}
+
+
+.btn-add{
+  /* min-height: 560px; */
+  /* position: relative;
+  bottom:3px;
+  top: 100px; */
+  /* margin-top: 10px; */
+  /* margin-bottom: 2px; */
+  margin-left: 60px;
+}

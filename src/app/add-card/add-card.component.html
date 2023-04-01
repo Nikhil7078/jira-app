@@ -1,0 +1,12 @@
+<div style=" display: block;" *ngIf='flag'>
+    <form class="form" [formGroup]="card_form">
+
+        <mat-label>header</mat-label>
+        <input matInput formControlName="header" required>
+
+        <mat-label>Description</mat-label>
+        <input matInput formControlName="desc" required>
+    </form>
+    <button mat-button  type="submit" (click)="add_card()">AddToCard</button>
+</div>
+

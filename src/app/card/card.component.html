@@ -1,0 +1,15 @@
+<div class="container">
+    <div style="display:flex"> 
+        {{card_data.header}} <button mat-button (click)="onDelete()"><mat-icon>delete</mat-icon></button>
+    </div>
+    <div>
+        <h3>{{card_data.id}}</h3>
+        <p>{{card_data.desc}}</p>
+    </div>
+    <div>
+        <div style="display:flex">
+            <span>share</span>
+            <mat-icon>share</mat-icon>
+         </div>
+    </div>
+</div>
